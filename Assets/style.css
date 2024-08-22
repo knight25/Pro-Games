@@ -4566,8 +4566,8 @@ body::-webkit-scrollbar-thumb:hover {
 .our-clients ul li {
 	list-style: none;
 	display: inline-block;
-	width:200px;
-	height:200px;
+	width:140px;
+	height:140px;
 	position: relative;
 	overflow: hidden;
 	cursor:pointer;
@@ -4578,8 +4578,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .our-clients ul li img {
-	width: 200px;
-	height: 200px;
+	width: 140px;
+	height: 140px;
 
 }
 
