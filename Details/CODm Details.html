@@ -70,6 +70,48 @@
             unicode-range: U+61-7a;
         }
      
+.contest {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    }
+
+.list-section {
+    flex: 1; /* Take up one part of the container */
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.info-section {
+    flex: 1; /* Take up one part of the container */
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove left padding */
+}
+
+li {
+    margin: 5px 0; /* Space between list items */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sections on smaller screens */
+    }
+}
+    .column {
+            flex: 1; /* Allow each column to grow equally */
+            min-width: 200px; /* Minimum width for each column */
+            padding: 10px; /* Padding within each column */
+        }
+    
 </style>
 </head>
 
@@ -118,11 +160,150 @@
 
     <!-- Bracket Start -->
     <section id="call-to-action" class="border-area">
-        <div class="overlay pt-120">
-            <div class="container">
-                <iframe src="https://brackethq.com/b/6vqlb/embed/?zoom=0" width="100%" height="550" frameborder="0"></iframe>
-            </div>
+        
+        <div class="contest">
+        <div class="info-section">
+            <h1>Tournament Rules</h1><br>
+            <ul>
+                <li>1.&nbsp; All participants must adhere to the schedule and join the game lobby on time.</li>
+                <li>2.&nbsp; Any form of cheating, hacking, or exploiting game mechanics will result in immediate disqualification.</li>
+                <li>3.&nbsp; Respectful behavior towards other players and tournament organizers is mandatory.</li>
+                <li>4.&nbsp; Prizes will be awarded to the top player based on the final standings.</li>
+                <li>5.&nbsp; Any disputes must be raised within 24 hours of the match completion.</li>
+            </ul>
         </div>
+            <div class="info-section">
+            <h1>Prize Pool</h1>
+            <ul>
+                <li>1st place: ₦30,000</li>
+                <li>2nd place: ₦20,000</li>
+                <li>3rd place: ₦15,000</li>
+                <li>4th place: ₦10,000</li>
+                <li>5th place: ₦ 5,000</li>
+            </ul>
+        </div>
+        </div>
+        
+    <div class="contest">    
+    <div class="list-section">
+    <h1>Contestant List</h1>
+    <div class="contest">
+         <div class="column">
+            <ul>
+                <li>1. Contestant 1</li>
+                <li>2. Contestant 2</li>
+                <li>3. Contestant 3</li>
+                <li>4. Contestant 4</li>
+                <li>5. Contestant 5</li>
+                <li>6. Contestant 6</li>
+                <li>7. Contestant 7</li>
+                <li>8. Contestant 8</li>
+                <li>9. Contestant 9</li>
+                <li>10. Contestant 10</li>
+                <li>11. Contestant 11</li>
+                <li>12. Contestant 12</li>
+                <li>13. Contestant 13</li>
+                <li>14. Contestant 14</li>
+                <li>15. Contestant 15</li>
+                <li>16. Contestant 16</li>
+                <li>17. Contestant 17</li>
+                <li>18. Contestant 18</li>
+                <li>19. Contestant 19</li>
+                <li>20. Contestant 20</li>
+                <li>Contestant 21</li>
+                <li>Contestant 22</li>
+                <li>Contestant 23</li>
+                <li>Contestant 24</li>
+                <li>Contestant 25</li>
+                <li>Contestant 26</li>
+                <li>Contestant 27</li>
+                <li>Contestant 28</li>
+                <li>Contestant 29</li>
+                <li>Contestant 30</li>
+                <li>Contestant 31</li>
+                <li>Contestant 32</li>
+                <li>Contestant 33</li>
+                <li>Contestant 34</li>
+                <li>Contestant 35</li>
+                <li>Contestant 36</li>
+                <li>Contestant 37</li>
+                <li>Contestant 38</li>
+                <li>Contestant 39</li>
+                <li>Contestant 40</li>                
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li>Contestant 41</li>
+                <li>Contestant 42</li>
+                <li>Contestant 43</li>
+                <li>Contestant 44</li>
+                <li>Contestant 45</li>
+                <li>Contestant 46</li>
+                <li>Contestant 47</li>
+                <li>Contestant 48</li>
+                <li>Contestant 49</li>
+                <li>Contestant 50</li>
+                <li>Contestant 51</li>
+                <li>Contestant 52</li>
+                <li>Contestant 53</li>
+                <li>Contestant 54</li>
+                <li>Contestant 55</li>
+                <li>Contestant 56</li>
+                <li>Contestant 57</li>
+                <li>Contestant 58</li>
+                <li>Contestant 59</li>
+                <li>Contestant 60</li>
+                <li>Contestant 61</li>
+                <li>Contestant 62</li>
+                <li>Contestant 63</li>
+                <li>Contestant 64</li>
+                <li>Contestant 65</li>
+                <li>Contestant 66</li>
+                <li>Contestant 67</li>
+                <li>Contestant 68</li>
+                <li>Contestant 69</li>
+                <li>Contestant 70</li>                
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li>Contestant 71</li>
+                <li>Contestant 72</li>
+                <li>Contestant 73</li>
+                <li>Contestant 74</li>
+                <li>Contestant 75</li>
+                <li>Contestant 76</li>
+                <li>Contestant 77</li>
+                <li>Contestant 78</li>
+                <li>Contestant 79</li>
+                <li>Contestant 80</li>
+                <li>Contestant 81</li>
+                <li>Contestant 82</li>
+                <li>Contestant 83</li>
+                <li>Contestant 84</li>
+                <li>Contestant 85</li>
+                <li>Contestant 86</li>
+                <li>Contestant 87</li>
+                <li>Contestant 88</li>
+                <li>Contestant 89</li>
+                <li>Contestant 90</li>
+                <li>Contestant 91</li>
+                <li>Contestant 92</li>
+                <li>Contestant 93</li>
+                <li>Contestant 94</li>
+                <li>Contestant 95</li>
+                <li>Contestant 96</li>
+                <li>Contestant 97</li>
+                <li>Contestant 98</li>
+                <li>Contestant 99</li>
+                <li>Contestant 100</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+            
     </section>
     <!-- Bracket Start end -->
 
